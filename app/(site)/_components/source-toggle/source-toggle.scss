@@ -1,0 +1,47 @@
+.source-toggle {
+    display: flex;
+    gap: 20px;
+    .source-toggle__btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid var(--color-secondary-400);
+        border-radius: var(--b-radius);
+        padding: 5px 5px;
+        
+        svg {
+            height: 15px;
+            width: 15px;
+        }
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .source-toggle__btn-active {
+        background-color: var(--color-orange-400);
+        border: 1px solid var(--color-orange-400);
+        color: black;
+        &:hover {
+                cursor: pointer;
+                text-decoration: none;
+            }
+    }
+}
+.source-toggle__badge__counter {
+    position: absolute;
+    right: 20px;
+    top: -17px;
+    right: -13px;
+
+    background-color: var(--color-alert-600);
+    color: var(--color-white);
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px !important;
+
+}

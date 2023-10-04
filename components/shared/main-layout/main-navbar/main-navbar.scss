@@ -1,0 +1,22 @@
+.main-navbar {
+    padding: 0 20px 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(1deg, #191b31 0%, #131635 100%);
+    height: 64px;
+    
+    .main-navbar__logo {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        column-gap: 13px;
+        &:hover {
+            color: var(--color-orange-400);
+        }
+    }
+    span {
+        font-size: 20px;
+    }
+}

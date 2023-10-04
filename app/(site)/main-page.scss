@@ -1,0 +1,8 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h1 {
+        @apply text-[20px] lg:text-[25px];
+    }
+}

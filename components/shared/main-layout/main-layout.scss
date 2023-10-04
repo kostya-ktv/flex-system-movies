@@ -1,0 +1,12 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-layout__movies {
+    @apply container;
+    width: 100%;
+    padding: 20px;
+}
