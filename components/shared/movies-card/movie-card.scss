@@ -13,6 +13,11 @@
     background-color: white;
     border-radius: var(--b-radius);
     overflow: hidden;
+    transition: transform .3s ease;
+    &:hover {
+            transform: scale(0.95);
+            background-color: rgb(222, 222, 222);
+        }
     img {
         border-radius: var(--b-radius);
         width: 100%;
@@ -32,6 +37,7 @@
     justify-content: space-evenly;
     padding: 10px;
     color: var(--color-secondary-800);
+   
     h3 {
         font-weight: 600;
         text-wrap: wrap;

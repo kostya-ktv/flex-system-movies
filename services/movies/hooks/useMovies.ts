@@ -17,10 +17,10 @@ export const useMovies = (key: SWRKeys) => {
     SWRGetCacheKey(key, params),
     async () => {
       if (key === SWRKeys.Popular) {
-        return await moviesService.getPopularMovies();
+        return await moviesService.getPopularMovies(params);
       }
       if (key === SWRKeys.Upcoming) {
-        return await moviesService.getUpcomingMovies();
+        return await moviesService.getUpcomingMovies(params);
       }
       return {
         results: [],

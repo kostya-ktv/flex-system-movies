@@ -2,7 +2,6 @@ import moviesService from '@/services/movies/movies.service';
 import './movie-page.scss';
 import Image from 'next/image';
 import { EnvConfig } from '@/config/env.config';
-import { Button } from '@/components/ui/button';
 import AddToFavoriteBtn from '@/components/shared/add-to-favorite-btn/add-to-favorite-btn';
 
 interface Props {
