@@ -1,4 +1,4 @@
-![alt text](https://github.com/kostya-ktv/flex-system-movies/blob/main/public/flexdynamics.png?raw=true)
+![alt text](https://github.com/kostya-ktv/flex-system-movies/blob/master/public/flexdynamics.png?raw=true)
 [LIVE](https://flex-system-movies.vercel.app/). This is a
 [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
